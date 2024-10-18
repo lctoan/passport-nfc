@@ -1,0 +1,4 @@
+/Users/toanle/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a \
+  openjpeg

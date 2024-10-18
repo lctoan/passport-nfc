@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/toanle/Code/passport-reader/jp2android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/toanle/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/toanle/Code/passport-reader/jp2android/.cxx/RelWithDebInfo/6nu4m4r1/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/toanle/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/toanle/Code/passport-reader/jp2android/.cxx/RelWithDebInfo/6nu4m4r1/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "openjpeg::@6890427a1f51a3e7e1df": {
+      "artifactName": "openjpeg",
+      "abi": "x86",
+      "output": "/Users/toanle/Code/passport-reader/jp2android/build/intermediates/cxx/RelWithDebInfo/6nu4m4r1/obj/x86/libopenjpeg.so",
+      "runtimeFiles": []
+    }
+  }
+}
