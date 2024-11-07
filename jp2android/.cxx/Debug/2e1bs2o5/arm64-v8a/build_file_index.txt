@@ -1,1 +1,1 @@
-/Users/toanle/Code/passport-reader/jp2android/CMakeLists.txt
+/Users/toanle/Code/passport-nfc/jp2android/CMakeLists.txt

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/toanle/Code/passport-reader/jp2android
+# Install script for directory: /Users/toanle/Code/passport-nfc/jp2android
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/toanle/Code/passport-nfc/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

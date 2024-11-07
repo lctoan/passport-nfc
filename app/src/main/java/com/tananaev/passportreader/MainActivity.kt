@@ -193,7 +193,7 @@ abstract class MainActivity : AppCompatActivity() {
                 val expirationDate = convertDate(preferences.getString(KEY_EXPIRATION_DATE, null))
                 val birthDate = convertDate(preferences.getString(KEY_BIRTH_DATE, null))
                 if (!passportNumber.isNullOrEmpty() && !expirationDate.isNullOrEmpty() && !birthDate.isNullOrEmpty()) {
-                    val bacKey: BACKeySpec = BACKey(passportNumber.substring(6, 12), birthDate, expirationDate)
+                    val bacKey: BACKeySpec = BACKey(passportNumber, birthDate, expirationDate)
                     ReadTask(IsoDep.get(tag), bacKey).execute()
                     mainLayout.visibility = View.GONE
                     loadingLayout.visibility = View.VISIBLE
@@ -247,12 +247,20 @@ abstract class MainActivity : AppCompatActivity() {
                 } catch (e: Exception) {
                     Log.w(TAG, e)
                 }
-                service.sendSelectApplet(paceSucceeded)
+                try {
+                    service.sendSelectApplet(paceSucceeded)
+                } catch (e: Exception) {
+                    Log.w(TAG, e)
+                }
                 if (!paceSucceeded) {
                     try {
                         service.getInputStream(PassportService.EF_COM).read()
                     } catch (e: Exception) {
-                        service.doBAC(bacKey)
+                        try {
+                            service.doBAC(bacKey)
+                        } catch (e: Exception) {
+                            Log.w(TAG, e)
+                        }
                     }
                 }
                 val dg1In = service.getInputStream(PassportService.EF_DG1)
@@ -317,7 +325,8 @@ abstract class MainActivity : AppCompatActivity() {
                 val dg2Hash = digest.digest(dg2File.encoded)
 
                 if (Arrays.equals(dg1Hash, dataHashes[1]) && Arrays.equals(dg2Hash, dataHashes[2])
-                    && (!chipAuthSucceeded || Arrays.equals(dg14Hash, dataHashes[14]))) {
+                    && (!chipAuthSucceeded || Arrays.equals(dg14Hash, dataHashes[14]))
+                ) {
 
                     val asn1InputStream = ASN1InputStream(assets.open("masterList"))
                     val keystore = KeyStore.getInstance(KeyStore.getDefaultType())

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a/
+cmake_ninja_workdir = /Users/toanle/Code/passport-nfc/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a/
 # =============================================================================
 # Object build statements for SHARED_LIBRARY target openjpeg
 
@@ -49,281 +49,281 @@ cmake_ninja_workdir = /Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2
 
 build cmake_object_order_depends_target_openjpeg: phony || CMakeFiles/openjpeg.dir
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/bio.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/bio.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/bio.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/bio.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/bio.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/cidx_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/cidx_manager.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/cidx_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/cidx_manager.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/cidx_manager.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/cio.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/cio.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/cio.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/cio.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/cio.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/dwt.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/dwt.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/dwt.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/dwt.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/dwt.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/event.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/event.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/event.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/event.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/event.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/function_list.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/function_list.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/function_list.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/function_list.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/function_list.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/image.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/image.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/image.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/image.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/image.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/invert.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/invert.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/invert.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/invert.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/invert.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/j2k.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/j2k.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/j2k.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/j2k.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/j2k.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/jp2.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/jp2.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/jp2.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/jp2.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/jp2.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/mct.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/mct.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/mct.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/mct.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/mct.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/mqc.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/mqc.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/mqc.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/mqc.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/mqc.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/openjpeg.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/openjpeg.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/openjpeg.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/openjpeg.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/openjpeg.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/opj_clock.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/opj_clock.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/opj_clock.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/opj_clock.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/opj_clock.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/opj_malloc.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/opj_malloc.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/opj_malloc.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/opj_malloc.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/opj_malloc.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/phix_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/phix_manager.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/phix_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/phix_manager.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/phix_manager.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/pi.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/pi.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/pi.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/pi.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/pi.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/ppix_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/ppix_manager.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/ppix_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/ppix_manager.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/ppix_manager.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/sparse_array.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/sparse_array.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/sparse_array.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/sparse_array.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/sparse_array.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/t1.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/t1.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/t1.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/t1.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/t1.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/t2.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/t2.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/t2.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/t2.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/t2.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tcd.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/tcd.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tcd.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/tcd.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tcd.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tgt.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/tgt.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tgt.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/tgt.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tgt.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/thix_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/thix_manager.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/thix_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/thix_manager.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/thix_manager.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/thread.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/thread.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/thread.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/thread.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/thread.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tpix_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/tpix_manager.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tpix_manager.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2/tpix_manager.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2/tpix_manager.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/lib/openjp2
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/bin/common/color.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common/color.c || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/bin/common/color.c.o: C_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common/color.c || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/bin/common/color.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DUSE_JPIP -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp/openjpeg/src/bin/common
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.pdb
 
-build CMakeFiles/openjpeg.dir/src/main/cpp/openjpg.cpp.o: CXX_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpg.cpp || cmake_object_order_depends_target_openjpeg
+build CMakeFiles/openjpeg.dir/src/main/cpp/openjpg.cpp.o: CXX_COMPILER__openjpeg_Debug /Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpg.cpp || cmake_object_order_depends_target_openjpeg
   DEFINES = -Dopenjpeg_EXPORTS
   DEP_FILE = CMakeFiles/openjpeg.dir/src/main/cpp/openjpg.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-reader/jp2android/src/main/cpp/openjpeg/src/bin/common
+  INCLUDES = -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/lib/openjp2 -I/Users/toanle/Code/passport-nfc/jp2android/src/main/cpp/openjpeg/src/bin/common
   OBJECT_DIR = CMakeFiles/openjpeg.dir
   OBJECT_FILE_DIR = CMakeFiles/openjpeg.dir/src/main/cpp
   TARGET_COMPILE_PDB = CMakeFiles/openjpeg.dir/
@@ -355,7 +355,7 @@ build ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjp
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a && /Users/toanle/Library/Android/sdk/cmake/3.22.1/bin/ccmake -S/Users/toanle/Code/passport-reader/jp2android -B/Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a
+  COMMAND = cd /Users/toanle/Code/passport-nfc/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a && /Users/toanle/Library/Android/sdk/cmake/3.22.1/bin/ccmake -S/Users/toanle/Code/passport-nfc/jp2android -B/Users/toanle/Code/passport-nfc/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -367,7 +367,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a && /Users/toanle/Library/Android/sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/toanle/Code/passport-reader/jp2android -B/Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a
+  COMMAND = cd /Users/toanle/Code/passport-nfc/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a && /Users/toanle/Library/Android/sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/toanle/Code/passport-nfc/jp2android -B/Users/toanle/Code/passport-nfc/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -387,7 +387,7 @@ build openjpeg: phony ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm
 # =============================================================================
 
 #############################################
-# Folder: /Users/toanle/Code/passport-reader/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a
+# Folder: /Users/toanle/Code/passport-nfc/jp2android/.cxx/Debug/2e1bs2o5/arm64-v8a
 
 build all: phony ../../../../build/intermediates/cxx/Debug/2e1bs2o5/obj/arm64-v8a/libopenjpeg.so
 
